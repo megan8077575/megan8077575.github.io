@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- TDK 套装1 -->
-    <title>汽水音乐下载_免费听抖音热歌_AI音乐生成与推荐</title>
-    <meta name="keywords" content="汽水音乐, 汽水音乐下载, 免费听歌软件, 汽水音乐官方, 抖音热歌, AI音乐, 听歌赚钱">
-    <meta name="description" content="汽水音乐官方正版下载，为您提供最新安卓版、iOS版及网页版入口。背靠抖音强大生态，海量抖音爆款热歌、短视频BGM一键畅听。主打AI智能推荐与AI音乐创作，支持看广告免费听歌，精准捕捉你的听歌喜好。">
-    <!-- 搜索引擎爬虫指令 -->
+    <title>QQ音乐官方下载_免费听歌看直播_海量无损音乐与AI助手</title>
+    <meta name="keywords" content="QQ音乐, QQ音乐下载, 免费听歌软件, QQ音乐官方, AI音乐助手, 无损音质, 音乐直播">
+    <meta name="description" content="Q音乐官方正版下载，为您提供最新安卓版、iOS版、PC客户端及网页版入口。拥有海量正版曲库，主打高品质无损音质、AI智能推荐与AI音乐创作。汇聚音乐直播、播客电台、明星周边购买，支持多端歌单同步与离线缓存，为您带来沉浸式的听歌体验。">
+    <!-- 搜索引擎指令 -->
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="bingbot" content="index,follow">
@@ -15,24 +15,23 @@
     <meta name="sogouspider" content="index,follow">
     <meta name="360spider" content="index,follow">
     <meta name="toutiaospider" content="index,follow">
-    <!-- 资源引入 -->
+    <!-- 资源 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- 配置 -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        primary: '#4ADE80',
-                        secondary: '#06B6D4',
-                        tertiary: '#F472B6',
-                        accent: '#FBBF24',
+                        primary: '#0070FA',
+                        secondary: '#00E4FF',
+                        tertiary: '#7B61FF',
+                        accent: '#FF69B4',
                         dark: '#0F172A',
-                        light: '#FAFAFF'
+                        light: '#F8FAFC'
                     },
                     fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif']
+                        sans: ['Inter','system-ui','sans-serif']
                     }
                 }
             }
@@ -40,339 +39,252 @@
     </script>
     <style type="text/tailwindcss">
         @layer utilities {
-            .gradient-text {
-                @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-tertiary;
-            }
-            .card-hover {
-                @apply transition-all duration-300 hover:scale-105 hover:shadow-xl;
-            }
-            .btn-gradient {
-                @apply bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-full px-8 py-4 shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105;
-            }
-            .btn-gradient-2 {
-                @apply bg-gradient-to-r from-tertiary to-accent text-white font-semibold rounded-full px-8 py-4 shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105;
-            }
-            .section-padding {
-                @apply py-16 md:py-24;
-            }
-            .smooth-scroll {
-                scroll-behavior: smooth;
-            }
+            .gradient-text { @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-tertiary; }
+            .card-hover { @apply transition-all duration-300 hover:scale-105 hover:shadow-2xl; }
+            .btn1 { @apply bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-full px-8 py-4 shadow-lg hover:shadow-xl hover:scale-105 transition-all; }
+            .btn2 { @apply bg-gradient-to-r from-tertiary to-accent text-white font-bold rounded-full px-8 py-4 shadow-lg hover:shadow-xl hover:scale-105 transition-all; }
+            .section { @apply py-16 md:py-24; }
+            html { scroll-behavior: smooth; }
         }
     </style>
 </head>
-<body class="bg-light text-dark smooth-scroll">
-    <!-- 彻底隐藏 H1 -->
-    <h1 class="opacity-0 absolute -z-50 pointer-events-none w-0 h-0 overflow-hidden">汽水音乐官方下载</h1>
+<body class="bg-light text-dark">
+    <!-- 完全隐藏 H1 -->
+    <h1 class="absolute opacity-0 w-0 h-0 overflow-hidden pointer-events-none">QQ音乐官方下载</h1>
 
-    <!-- 导航栏 -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
+    <!-- 导航 -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
         <div class="container mx-auto px-4 py-4">
-            <nav class="flex items-center justify-between">
-                <!-- Logo -->
+            <nav class="flex justify-between items-center">
                 <div class="flex items-center gap-2">
                     <i class="fa fa-music text-3xl gradient-text"></i>
-                    <span class="text-xl font-bold">汽水音乐</span>
+                    <span class="text-xl font-bold">QQ音乐</span>
                 </div>
-                <!-- 导航菜单 -->
-                <div class="hidden md:flex items-center gap-8">
-                    <a href="#download" class="font-medium hover:text-secondary transition-colors">立即下载</a>
-                    <a href="#features" class="font-medium hover:text-secondary transition-colors">软件特点</a>
-                    <a href="#faq" class="font-medium hover:text-secondary transition-colors">常见问题</a>
-                    <a href="#guide" class="font-medium hover:text-secondary transition-colors">使用帮助</a>
+                <div class="hidden md:flex gap-8">
+                    <a href="#download" class="font-medium hover:text-primary transition-colors">立即下载</a>
+                    <a href="#features" class="font-medium hover:text-primary transition-colors">软件特点</a>
+                    <a href="#faq" class="font-medium hover:text-primary transition-colors">常见问题</a>
+                    <a href="#guide" class="font-medium hover:text-primary transition-colors">使用帮助</a>
                 </div>
-                <!-- 移动端按钮 -->
-                <a href="#download" class="md:hidden btn-gradient !px-5 !py-2 text-sm">
-                    <i class="fa fa-download mr-1"></i> 下载
-                </a>
+                <a href="#download" class="md:hidden btn1 !px-4 !py-2 text-sm"><i class="fa fa-download mr-1"></i>下载</a>
             </nav>
         </div>
     </header>
 
     <!-- 渐变头部 -->
-    <section id="hero" class="relative overflow-hidden section-padding">
-        <div class="absolute inset-0 bg-gradient-to-br from-[#ECFDF5] via-[#E0F7FE] to-[#FDF4FF] -z-10"></div>
+    <section class="relative overflow-hidden section">
+        <div class="absolute inset-0 bg-gradient-to-br from-[#E6F7FF] to-[#F0F7FF] -z-10"></div>
         <div class="container mx-auto px-4 text-center">
             <div class="max-w-3xl mx-auto">
-                <h2 class="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-6 gradient-text">
-                    听见新鲜 · 乐在汽水
-                </h2>
-                <p class="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed">
-                    抖音爆款热歌全覆盖，AI智能推荐+AI音乐创作，免费畅听全网热门BGM，开启潮流音乐新体验
-                </p>
-                <!-- 多色下载按钮 -->
-                <div id="download" class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                    <a href="https://dl.tpn2n.com/" rel="nofollow noopener" class="btn-gradient">
-                        <i class="fa fa-desktop mr-2"></i> PC 客户端下载
-                    </a>
-                    <a href="https://dl.tpn2n.com/" rel="nofollow noopener" class="btn-gradient-2">
-                        <i class="fa fa-mobile mr-2"></i> 手机版下载
-                    </a>
+                <h2 class="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-6 gradient-text">乐动生活 · 声入人心</h2>
+                <p class="text-lg md:text-xl text-gray-600 mb-10">海量正版曲库、AI智能创作、无损音质、全平台同步，打造沉浸式音乐体验</p>
+                <div id="download" class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+                    <a href="https://dl.tpn2n.com/" rel="nofollow noopener" class="btn1"><i class="fa fa-desktop mr-2"></i>PC客户端下载</a>
+                    <a href="https://dl.tpn2n.com/" rel="nofollow noopener" class="btn2"><i class="fa fa-mobile mr-2"></i>手机版下载</a>
                 </div>
-                <p class="text-sm text-gray-500">官方正版 · 无捆绑 · 全平台兼容 · 免费畅听</p>
+                <p class="text-sm text-gray-500">官方正版 · 无捆绑 · 全平台兼容</p>
             </div>
         </div>
     </section>
 
-    <!-- 4个彩色数据卡片 -->
+    <!-- 数据卡片 -->
     <section class="py-12">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- 全球用户 -->
-                <div class="bg-white rounded-2xl shadow-md p-8 text-center card-hover border border-gray-100">
-                    <div class="w-14 h-14 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                <div class="bg-white rounded-2xl shadow-md p-8 text-center card-hover">
+                    <div class="w-14 h-14 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa fa-globe text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-3xl font-bold mb-2">6亿+</h3>
+                    <h3 class="text-3xl font-bold mb-2">9亿+</h3>
                     <p class="text-gray-600">全球用户</p>
                 </div>
-                <!-- 日活用户 -->
-                <div class="bg-white rounded-2xl shadow-md p-8 text-center card-hover border border-gray-100">
-                    <div class="w-14 h-14 bg-gradient-to-br from-secondary to-tertiary rounded-full flex items-center justify-center mx-auto mb-4">
+                <div class="bg-white rounded-2xl shadow-md p-8 text-center card-hover">
+                    <div class="w-14 h-14 bg-gradient-to-r from-secondary to-tertiary rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa fa-users text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-3xl font-bold mb-2">1.5亿+</h3>
+                    <h3 class="text-3xl font-bold mb-2">1.8亿+</h3>
                     <p class="text-gray-600">日活用户</p>
                 </div>
-                <!-- 累计下载 -->
-                <div class="bg-white rounded-2xl shadow-md p-8 text-center card-hover border border-gray-100">
-                    <div class="w-14 h-14 bg-gradient-to-br from-tertiary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <div class="bg-white rounded-2xl shadow-md p-8 text-center card-hover">
+                    <div class="w-14 h-14 bg-gradient-to-r from-tertiary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa fa-download text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-3xl font-bold mb-2">40亿+</h3>
+                    <h3 class="text-3xl font-bold mb-2">60亿+</h3>
                     <p class="text-gray-600">累计下载</p>
                 </div>
-                <!-- 覆盖国家 -->
-                <div class="bg-white rounded-2xl shadow-md p-8 text-center card-hover border border-gray-100">
-                    <div class="w-14 h-14 bg-gradient-to-br from-accent to-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <div class="bg-white rounded-2xl shadow-md p-8 text-center card-hover">
+                    <div class="w-14 h-14 bg-gradient-to-r from-accent to-primary rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa fa-flag text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-3xl font-bold mb-2">150+</h3>
+                    <h3 class="text-3xl font-bold mb-2">190+</h3>
                     <p class="text-gray-600">覆盖国家</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 汽水音乐介绍 -->
+    <!-- QQ音乐介绍 -->
     <section class="py-10 bg-white">
         <div class="container mx-auto px-4 max-w-4xl">
-            <div class="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 shadow-sm">
-                <h3 class="text-2xl font-bold mb-4 text-center gradient-text">关于 汽水音乐</h3>
-                <p class="text-gray-700 leading-relaxed text-center">
-                    汽水音乐是抖音旗下潮流音乐平台，深度联动抖音短视频生态，全网同步更新爆款热歌与短视频BGM。搭载AI智能推荐与AI音乐创作引擎，支持免费听歌、听歌赚钱、离线缓存等功能，以年轻、潮流、极简的体验，成为Z世代首选音乐软件。
+            <div class="bg-gray-50 rounded-2xl p-8 shadow-sm">
+                <h3 class="text-2xl font-bold mb-4 text-center gradient-text">关于 QQ音乐</h3>
+                <p class="text-gray-700 text-center leading-relaxed">
+                    QQ音乐是腾讯旗下高品质音乐平台，拥有海量正版曲库与行业顶级无损音质。搭载AI智能助手，支持音乐直播、播客、歌单同步、离线缓存等全功能，覆盖PC、手机、车载多终端，是数亿用户的音乐首选。
                 </p>
             </div>
         </div>
     </section>
 
     <!-- 软件特点 6个 -->
-    <section id="features" class="section-padding bg-white">
+    <section id="features" class="section bg-white">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">核心软件特点</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">六大核心功能，畅享潮流音乐</p>
+                <p class="text-gray-600">六大核心功能，开启极致音乐体验</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- 特点1 -->
                 <div class="bg-gray-50 rounded-2xl p-8 card-hover">
                     <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                         <i class="fa fa-music text-primary text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">抖音热歌全覆盖</h3>
-                    <p class="text-gray-600">全网同步抖音爆款热歌、短视频BGM、网红神曲，实时更新，无需跳转一键畅听，紧跟音乐潮流不落后。</p>
+                    <h3 class="text-xl font-bold mb-3">千万正版曲库</h3>
+                    <p class="text-gray-600">全网最全版权音乐库，覆盖流行、古风、电音、影视原声全品类，热门新歌、独家专辑实时更新。</p>
                 </div>
-                <!-- 特点2 -->
                 <div class="bg-gray-50 rounded-2xl p-8 card-hover">
                     <div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center mb-4">
-                        <i class="fa fa-magic text-secondary text-xl"></i>
+                        <i class="fa fa-headphones text-secondary text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">AI智能推荐</h3>
-                    <p class="text-gray-600">基于大数据AI算法，精准捕捉听歌喜好，私人定制专属歌单与推荐流，越用越懂你，快速发现心仪音乐。</p>
+                    <h3 class="text-xl font-bold mb-3">母带级无损音质</h3>
+                    <p class="text-gray-600">支持Hi-Res、母带、无损高清音质，还原录音棚原声，专属音效调节，听觉体验极致。</p>
                 </div>
-                <!-- 特点3 -->
                 <div class="bg-gray-50 rounded-2xl p-8 card-hover">
                     <div class="w-12 h-12 bg-tertiary/10 rounded-xl flex items-center justify-center mb-4">
-                        <i class="fa fa-lightbulb-o text-tertiary text-xl"></i>
+                        <i class="fa fa-magic text-tertiary text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">AI音乐创作</h3>
-                    <p class="text-gray-600">内置AI音乐生成工具，输入关键词一键创作原创歌曲，支持旋律改编、歌词生成，零基础也能做音乐。</p>
+                    <h3 class="text-xl font-bold mb-3">AI音乐助手</h3>
+                    <p class="text-gray-600">AI智能推荐、AI作曲、智能音效，根据喜好精准推荐，轻松创作专属音乐。</p>
                 </div>
-                <!-- 特点4 -->
                 <div class="bg-gray-50 rounded-2xl p-8 card-hover">
                     <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-4">
-                        <i class="fa fa-youtube-play text-accent text-xl"></i>
+                        <i class="fa fa-video-camera text-accent text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">免费听歌模式</h3>
-                    <p class="text-gray-600">支持看广告免费解锁会员曲库，听歌赚钱领福利，无会员也能畅享海量正版音乐，降低听歌门槛。</p>
+                    <h3 class="text-xl font-bold mb-3">音乐直播互动</h3>
+                    <p class="text-gray-600">明星直播、线上演唱会全覆盖，高清观看实时互动，近距离感受偶像魅力。</p>
                 </div>
-                <!-- 特点5 -->
                 <div class="bg-gray-50 rounded-2xl p-8 card-hover">
                     <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-                        <i class="fa fa-mobile text-primary text-xl"></i>
+                        <i class="fa fa-cloud text-primary text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">极简流畅体验</h3>
-                    <p class="text-gray-600">轻量化设计，安装包小巧，运行流畅不卡顿，界面简洁清爽，无多余广告，专注纯粹的听歌体验。</p>
+                    <h3 class="text-xl font-bold mb-3">多端云同步</h3>
+                    <p class="text-gray-600">PC、手机、平板、车载全设备同步，歌单收藏实时更新，无缝听歌。</p>
                 </div>
-                <!-- 特点6 -->
                 <div class="bg-gray-50 rounded-2xl p-8 card-hover">
                     <div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center mb-4">
-                        <i class="fa fa-cloud text-secondary text-xl"></i>
+                        <i class="fa fa-download text-secondary text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">全端同步缓存</h3>
-                    <p class="text-gray-600">支持手机、平板、PC多端登录，歌单与播放记录实时同步，一键缓存离线听歌，无网也能随时听。</p>
+                    <h3 class="text-xl font-bold mb-3">离线缓存播放</h3>
+                    <p class="text-gray-600">一键缓存音乐，无网络也能流畅播放，节省流量，不中断音乐享受。</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- 常见问题 5个，每个7步骤 -->
-    <section id="faq" class="section-padding bg-gray-50">
+    <section id="faq" class="section bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">常见问题</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">使用问题一站式解决</p>
+                <p class="text-gray-600">使用问题一站式解决</p>
             </div>
             <div class="max-w-3xl mx-auto space-y-6">
-                <!-- 问题1 -->
-                <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
-                    <button class="w-full px-6 py-4 text-left font-semibold text-lg">
-                        <span>如何下载安装汽水音乐？</span>
-                    </button>
-                    <div class="px-6 py-4 border-t border-gray-100">
-                        <p class="text-gray-600 leading-relaxed">
-                            1.打开官方下载页面，选择对应设备版本点击下载；2.等待安装包下载完成后打开文件；3.允许安装未知来源应用，解除系统限制；4.点击安装按钮，等待自动部署完成；5.安装结束后点击打开，进入软件引导页；6.使用抖音/手机号一键快捷登录；7.登录成功即可开始畅享全网音乐。
-                        </p>
-                    </div>
+                <div class="bg-white rounded-2xl shadow-sm p-6">
+                    <h4 class="font-semibold text-lg mb-3">如何下载安装QQ音乐客户端？</h4>
+                    <p class="text-gray-600">1.打开官方下载页选择版本点击下载；2.打开安装包所在位置；3.双击程序同意协议；4.自定义安装目录；5.点击快速安装；6.安装完成启动软件；7.QQ/微信登录同步歌单。</p>
                 </div>
-                <!-- 问题2 -->
-                <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
-                    <button class="w-full px-6 py-4 text-left font-semibold text-lg">
-                        <span>歌曲无法播放怎么办？</span>
-                    </button>
-                    <div class="px-6 py-4 border-t border-gray-100">
-                        <p class="text-gray-600 leading-relaxed">
-                            1.检查网络连接是否正常，切换WiFi/流量重试；2.确认歌曲版权有效，部分歌曲可能下架；3.清理软件缓存文件，释放存储空间；4.检查设备音量，关闭静音模式；5.更新汽水音乐至最新版本，修复播放bug；6.重启软件或设备，重新加载播放组件；7.仍无法播放可卸载重装解决问题。
-                        </p>
-                    </div>
+                <div class="bg-white rounded-2xl shadow-sm p-6">
+                    <h4 class="font-semibold text-lg mb-3">登录后歌单不显示如何解决？</h4>
+                    <p class="text-gray-600">1.检查网络切换WiFi/流量；2.退出账号重新登录；3.更新至最新版本；4.清理软件缓存；5.开启云同步；6.重启软件；7.联系客服恢复数据。</p>
                 </div>
-                <!-- 问题3 -->
-                <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
-                    <button class="w-full px-6 py-4 text-left font-semibold text-lg">
-                        <span>如何开启免费听歌赚钱？</span>
-                    </button>
-                    <div class="px-6 py-4 border-t border-gray-100">
-                        <p class="text-gray-600 leading-relaxed">
-                            1.打开汽水音乐，进入个人中心页面；2.找到听歌赚钱/免费听歌入口，点击开启；3.完成新手任务，激活赚钱资格；4.每日听歌、看广告即可获得奖励；5.累计奖励可兑换会员或提现；6.开启自动播放，挂机也能赚收益；7.坚持每日签到，额外领取奖励福利。
-                        </p>
-                    </div>
+                <div class="bg-white rounded-2xl shadow-sm p-6">
+                    <h4 class="font-semibold text-lg mb-3">音乐播放失败/无声音怎么办？</h4>
+                    <p class="text-gray-600">1.检查设备音量关闭静音；2.切换歌曲判断版权问题；3.检查耳机音响连接；4.切换播放模式；5.清理音乐缓存；6.更新声卡驱动；7.重装客户端。</p>
                 </div>
-                <!-- 问题4 -->
-                <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
-                    <button class="w-full px-6 py-4 text-left font-semibold text-lg">
-                        <span>怎么使用AI音乐创作功能？</span>
-                    </button>
-                    <div class="px-6 py-4 border-t border-gray-100">
-                        <p class="text-gray-600 leading-relaxed">
-                            1.在首页找到AI音乐入口，点击进入创作页面；2.输入歌曲风格、歌词、情绪等关键词；3.选择伴奏类型与时长，设置创作参数；4.点击开始生成，等待AI完成作曲；5.生成后在线试听，支持编辑修改；6.保存作品到个人歌单，支持分享导出；7.可直接设为手机铃声或发布作品。
-                        </p>
-                    </div>
+                <div class="bg-white rounded-2xl shadow-sm p-6">
+                    <h4 class="font-semibold text-lg mb-3">如何开启无损音质播放？</h4>
+                    <p class="text-gray-600">1.登录进入设置中心；2.选择无损/母带音质；3.开启WiFi自动加载；4.播放页手动切换音质；5.开通会员解锁权限；6.搭配音效插件；7.重启播放享受高清音质。</p>
                 </div>
-                <!-- 问题5 -->
-                <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
-                    <button class="w-full px-6 py-4 text-left font-semibold text-lg">
-                        <span>如何缓存歌曲离线收听？</span>
-                    </button>
-                    <div class="px-6 py-4 border-t border-gray-100">
-                        <p class="text-gray-600 leading-relaxed">
-                            1.打开汽水音乐，找到想要缓存的歌曲；2.点击歌曲右侧更多按钮，选择缓存；3.选择缓存音质，标清/高清/无损；4.等待缓存进度完成，显示已缓存；5.进入我的音乐，查看已缓存歌曲；6.开启仅WiFi缓存，避免消耗流量；7.无网络状态下，直接播放缓存歌曲。
-                        </p>
-                    </div>
+                <div class="bg-white rounded-2xl shadow-sm p-6">
+                    <h4 class="font-semibold text-lg mb-3">怎么导入本地音乐到歌单？</h4>
+                    <p class="text-gray-600">1.进入我的音乐；2.点击本地音乐添加歌曲；3.设置扫描路径；4.等待扫描完成；5.勾选音乐文件；6.添加到目标歌单；7.支持离线播放编辑信息。</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- 下载使用指南 4个 -->
-    <section id="guide" class="section-padding bg-white">
+    <section id="guide" class="section bg-white">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">下载使用指南</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">4步轻松开启音乐之旅</p>
+                <p class="text-gray-600">4步轻松开启音乐之旅</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-                <!-- 指南1 -->
                 <div class="text-center card-hover">
                     <div class="w-16 h-16 rounded-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center mx-auto mb-6">
                         <span class="text-white text-2xl font-bold">01</span>
                     </div>
                     <h3 class="text-xl font-bold mb-3">立即下载</h3>
-                    <p class="text-gray-600">点击下载按钮，获取官方正版安装包</p>
+                    <p class="text-gray-600">获取官方正版安装包</p>
                 </div>
-                <!-- 指南2 -->
                 <div class="text-center card-hover">
                     <div class="w-16 h-16 rounded-full bg-gradient-to-r from-secondary to-tertiary flex items-center justify-center mx-auto mb-6">
                         <span class="text-white text-2xl font-bold">02</span>
                     </div>
                     <h3 class="text-xl font-bold mb-3">安装软件</h3>
-                    <p class="text-gray-600">一键安装，无需复杂设置，极速完成</p>
+                    <p class="text-gray-600">一键快速完成安装</p>
                 </div>
-                <!-- 指南3 -->
                 <div class="text-center card-hover">
                     <div class="w-16 h-16 rounded-full bg-gradient-to-r from-tertiary to-accent flex items-center justify-center mx-auto mb-6">
                         <span class="text-white text-2xl font-bold">03</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">快捷登录</h3>
-                    <p class="text-gray-600">抖音/手机号一键登录，同步歌单</p>
+                    <h3 class="text-xl font-bold mb-3">登录账号</h3>
+                    <p class="text-gray-600">一键登录同步歌单</p>
                 </div>
-                <!-- 指南4 -->
                 <div class="text-center card-hover">
                     <div class="w-16 h-16 rounded-full bg-gradient-to-r from-accent to-primary flex items-center justify-center mx-auto mb-6">
                         <span class="text-white text-2xl font-bold">04</span>
                     </div>
                     <h3 class="text-xl font-bold mb-3">畅享音乐</h3>
-                    <p class="text-gray-600">免费听热歌、AI创作、赚钱全体验</p>
+                    <p class="text-gray-600">全功能音乐体验</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- 底部下载 -->
-    <section class="py-16 bg-gradient-to-br from-[#ECFDF5] via-[#E0F7FE] to-[#FDF4FF]">
+    <section class="py-16 bg-gradient-to-br from-[#E6F7FF] to-[#F0F7FF]">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-6">立即下载汽水音乐</h2>
-            <p class="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-                抖音爆款热歌、AI智能创作、免费听歌赚钱，即刻开启潮流音乐生活
-            </p>
-            <a href="https://dl.tpn2n.com/" rel="nofollow noopener" class="btn-gradient text-lg px-10 py-5">
-                <i class="fa fa-download mr-2"></i> 官方正版下载
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">立即下载QQ音乐</h2>
+            <p class="text-lg text-gray-600 mb-10">千万曲库、AI创作、无损音质，开启沉浸式音乐体验</p>
+            <a href="https://dl.tpn2n.com/" rel="nofollow noopener" class="btn1 text-lg px-10 py-5">
+                <i class="fa fa-download mr-2"></i>官方正版下载
             </a>
         </div>
     </section>
 
-    <!-- 底部版权：汽水音乐 -->
-    <footer class="py-8 bg-dark text-white">
-        <div class="container mx-auto px-4 text-center">
+    <!-- 底部版权：QQ音乐 -->
+    <footer class="py-8 bg-dark text-white text-center">
+        <div class="container mx-auto px-4">
             <div class="flex items-center justify-center mb-4">
                 <i class="fa fa-music text-2xl mr-2 text-primary"></i>
-                <span class="text-xl font-semibold">汽水音乐</span>
+                <span class="text-xl font-semibold">QQ音乐</span>
             </div>
-            <p class="text-gray-400">版权所有 © 汽水音乐 | 抖音旗下官方音乐平台</p>
+            <p class="text-gray-400">版权所有 © QQ音乐 | 腾讯官方音乐平台</p>
         </div>
     </footer>
 
     <!-- 统计代码 100% 原样保留 -->
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"LBmx6QF2xif7tLAH",ck:"LBmx6QF2xif7tLAH"})</script>
-
-    <!-- 交互脚本 -->
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-            });
-        });
-    </script>
 </body>
 </html>
